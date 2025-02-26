@@ -26,3 +26,5 @@ for i in range(1, 5): #são 4 alunos
 
 print(f'O aluno sorteado é: {random.choice(alunos)}')
 '''
+
+#https://docs.python.org/3/library/random.html

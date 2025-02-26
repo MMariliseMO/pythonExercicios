@@ -16,3 +16,5 @@ print(f'O número {num} tem a parte inteira {trunc(num)}.') # não precisa da re
 '''num = float(input('Digite um número: '))
 print(f'O número {num} tem a parte inteira {int(num)}') # a variável num foi convertida para inteiro
 '''
+
+#https://docs.python.org/3/library/math.html

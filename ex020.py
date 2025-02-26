@@ -10,3 +10,4 @@ random.shuffle(alunos) #chamei o random.shuffle(), pois ele precisa embaralhar a
 
 print(f'A sequência de alunos para apresentação é: {alunos}')   
 '''
+
