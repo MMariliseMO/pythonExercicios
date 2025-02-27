@@ -1,4 +1,4 @@
-#O professor de Modelagem de Negócios e Requisitos passou um trabalho em grupo. O grupo é de até  5 alunos e no nosso círculo de amizades, temos 10 pessoas. Criar um programa em python que solicite o nome dos amigos e faça um sorteio mostrando na tela a equipe1 e equipe2 cada um com 5 integrantes
+#O professor de Modelagem de Negócios e Requisitos passou um trabalho em grupo. O grupo é de até  5 alunos e no nosso círculo de amizades, temos 10 pessoas. Criei um programa em python que solicita o nome dos amigos e faz um sorteio mostrando na tela a equipe1 e equipe2 cada um com 5 integrantes
 
 from random import shuffle
 
