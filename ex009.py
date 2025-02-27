@@ -16,7 +16,7 @@ for i in range(1, 11): #gerar um loop de 1 a 10
 print('-' * 12)
 '''
 
-
+#https://docs.python.org/3/tutorial/controlflow.html#for-statements
 
 
 
