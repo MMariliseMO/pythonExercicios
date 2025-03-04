@@ -1,1 +1,2 @@
-#Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "Santo".
+#Crie um programa que leia o nome de uma pessoa e diga s ela tem "Silva" no nome.
+
