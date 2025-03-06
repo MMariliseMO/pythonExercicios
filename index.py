@@ -97,3 +97,9 @@ if media >= 7:
     print(f'Parabéns! Sua média foi: {media:.1f} e você está aprovado :)')
 else:
     print(f'Que pena! Sua média foi: {media:.1f} e você está reprovado :/')'''
+
+    #Aula 11 - Colocar cores no terminal
+
+    #código ANSI \033[estilo da fonte, cor texto, cor do fundo + letra m
+
+print('\33[1;35;43mOlá Mundo\033[m')
