@@ -94,6 +94,6 @@ num2 = float(input('Digite a 2º nota: '))
 media = (num1 + num2) / 2
 
 if media >= 7:
-    print(f'Parabéns! Sua media foi: {media:.1f} e você está aprovado :)')
+    print(f'Parabéns! Sua média foi: {media:.1f} e você está aprovado :)')
 else:
-    print(f'Que pena! Sua media foi: {media:.1f} e você está reprovado :/')'''
+    print(f'Que pena! Sua média foi: {media:.1f} e você está reprovado :/')'''
