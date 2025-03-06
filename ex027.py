@@ -2,4 +2,4 @@
 
 nome = str(input('Digite o nome completo: ')) .strip()
 
-print(f'Primeiro nome: {nome.split()[0]}. \nÚltimo nome: {nome.split()[-1]}') #o índice -1 retorna o último elemento da lista
+print(f'Primeiro nome: {nome.split()[0]}. \nÚltimo nome: {nome.split()[-1]}.') #o índice -1 retorna o último elemento da lista

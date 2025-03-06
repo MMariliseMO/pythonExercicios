@@ -1,0 +1,1 @@
+#Escreva um programa que leia a veloidade de um carro. Se ele ultrapassar 80km/h, mostre um mensagem dizendo que ele será multado. A multa vai custar R$7,00 por cada Km acima do limite.
