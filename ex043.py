@@ -1,0 +1,1 @@
+#Desenvolva uma lágica que leia o peso e a altura de uma pessoa, calcule seu IMC e mostre seu status de acordo com a tabela abaixo: - abaixo de 18,5: baixo peso; - Entre 18,5 e 25,0: peso ideal; - Entre igual a 25 e 30,0: sobrepeso; Maior ou igual a 30,0: adulto com obesidade; - Acima de 40: Obesidade mórbida.
