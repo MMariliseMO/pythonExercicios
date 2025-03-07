@@ -102,4 +102,11 @@ else:
 
     #código ANSI \033[estilo da fonte, cor texto, cor do fundo + letra m
 
-print('\33[1;35;43mOlá Mundo\033[m')
+# print('\33[1;35;43mOlá Mundo\033[m')
+
+#Aula 12 - Mundo 2 - Condições Aninhadas
+nome = str(input('Digite seu nome: '))
+if nome == 'Marilise' or nome == 'Messias' or nome == 'Olimpio' or nome == 'Fatima':
+    print(f'Seu nome é lindo. Parabéns!:D')
+else: 
+    print('Vai dar certo. Se preocupa não, tá!')
