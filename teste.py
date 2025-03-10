@@ -18,4 +18,3 @@ elif operador == "/":
 else: 
     print('Operador inválido!')
 
-
