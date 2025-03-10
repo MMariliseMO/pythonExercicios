@@ -18,7 +18,7 @@ time.sleep(1)
 computador = randint(0, 2) #gera a escolha do computador. A função randint() vai gerar um número entre 0 e 2 e vai ficar armazenado na variável computador
 
 if jogador in [0, 1, 2]: #verifica se a escolha do jogador está dentro das opções válidas
-    print('-__-' * 10)
+    print('-_-_' * 8)
     print(f'Jogador escolheu: {itens[jogador]}')
     print(f'Computador escolheu: {itens[computador]}')
 
@@ -28,7 +28,7 @@ if jogador in [0, 1, 2]: #verifica se a escolha do jogador está dentro das opç
         print('\033[1;30;47mComputador Ganhou!\033[m')
     else: 
         print('\033[1;30;47mJogador Ganhou\033[m')
-    print('-__-' * 10)    
+    print('-_-_' * 8)    
 else:
     print('Opção Inválida!')
 
