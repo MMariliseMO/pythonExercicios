@@ -30,6 +30,6 @@ if jogador in [0, 1, 2]: #verifica se a escolha do jogador está dentro das opç
         print('\033[1;30;47mJogador Ganhou\033[m')
     print('-_-_' * 8)    
 else:
-    print('Opção Inválida! Volte ao início do jogo e escolha uma opção válida!')
+    print('\033[0;30;41mOpção Inválida! Volte ao início do jogo e escolha uma opção válida!\033[m')
 
 
