@@ -1,4 +1,4 @@
-#Resumo e exercícios durante as aulas
+#Resumo e exercícios das aulas
 
 #1º desafio - receber o nome e imprimir na tela uma mensagem de boas vindas
 '''nome = input('Qual o seu nome?')
@@ -105,8 +105,40 @@ else:
 # print('\33[1;35;43mOlá Mundo\033[m')
 
 #Aula 12 - Mundo 2 - Condições Aninhadas
-nome = str(input('Digite seu nome: '))
+'''nome = str(input('Digite seu nome: '))
 if nome == 'Marilise' or nome == 'Messias' or nome == 'Olimpio' or nome == 'Fatima':
     print(f'Seu nome é lindo. Parabéns!:D')
 else: 
-    print('Vai dar certo. Se preocupa não, tá!')
+    print('Vai dar certo. Se preocupa não, tá!')'''
+
+#Aula 13 - Estrutura de repetição for
+
+'''for i in range(6, 0, -1): # -1 ele fica decrescene
+    print(i)
+print('FIM')
+
+for i in range(0, 7, 2): # de 0 ao 7 de 2 em 2
+    print(i)
+print('FIM')'''
+
+'''n = int(input('Digite um número: '))
+for i in range(0, n):
+    print(i)
+print('FIM')'''
+
+'''inicio = int(input('Início: '))
+final = int(input('Final: '))
+passo = int(input('Passo: '))
+print('-+-' * 5)
+for i in range(inicio, final+1, passo):
+    print(i)
+print('-+-' * 5)'''
+
+s = []
+for i in range(0, 3):
+    n = int(input('Digite um valor: ')) 
+    s.append(n)
+print(f'{s}')
+print('-+-+- Fim -+-+- ')    
+
+
