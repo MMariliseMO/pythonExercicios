@@ -1,14 +1,15 @@
 # Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
 
+
 num = int(input('Informe um número: '))
-cont_dividor = 0 #contador
-if num < 2:
+cont_dividor = 0 #contador para contar quantos divisores o num possui
+if num < 2: #verifica se o número é menor que 2
     print(f'O número {num} não é primo!')
-else:
+else: # se o número não for menor que 2 ele inicia a contagem
     for i in range(1, num + 1):
-        if num % i == 0:
-            cont_dividor += 1
-    if cont_dividor == 2:
+        if num % i == 0: # ao dividir o num por i e o resto for igual a 0, significa que i é divisor de num
+            cont_dividor += 1 #incrementa o divisor 
+    if cont_dividor == 2: #verifica se o divisor é igual a 2, pois o número primo só é dividido por 1 e por ele mesmo
         print(f'O número {num} é primo!')
     else: 
         print(f'O número {num} não é primo!')
