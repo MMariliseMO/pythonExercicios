@@ -134,11 +134,23 @@ for i in range(inicio, final+1, passo):
     print(i)
 print('-+-' * 5)'''
 
-s = []
+'''s = []
 for i in range(0, 3):
     n = int(input('Digite um valor: ')) 
     s.append(n)
 print(f'{s}')
-print('-+-+- Fim -+-+- ')    
+print('-+-+- Fim -+-+- ')'''  
+
+#Aula 14 - estrutura de repetição while
+'''for c in range(1, 10):
+    print(c)
+print('Fim')
+
+c = 1
+while c < 10:
+    print(c)
+    c = c + 1
+print('Fim')'''
+
 
 
