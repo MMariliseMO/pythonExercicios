@@ -152,6 +152,30 @@ while c < 10:
     c = c + 1
 print('Fim')'''
 
+#Aula 15 - break e os looping infinitos
 
+#breack - para o loop
 
+'''cont = 1
+while cont <= 10:
+    print(cont, '-> ', end = '')
+    cont += 1
+print('Acabou!')
 
+n = 0
+while n != 999: #excuta até digitar 999 que é o flag, ponto de parada
+    n = int(input('Digite um número: '))'''
+
+'''n = s = 0
+while True:
+    n = int(input('Digite um número: '))
+    if n == 999:
+        break
+    s += n
+print(f'A soma vale: {s}') #f-string'''
+
+#f-string x .format()
+'''nome = 'José'
+idade = 33
+print(f'{nome} tem {idade} anos.')
+print('{} tem {} anos.' .format(nome, idade))'''
