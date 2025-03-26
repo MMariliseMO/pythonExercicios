@@ -7,7 +7,7 @@ while True:
     num_jogador = int(input('Informe um número: '))
     escolha = str(input('Você escolhe PAR ou ÍMPAR? ')) .upper() .strip()
 
-    num_computador = randint(0, 11)
+    num_computador = randint(0, 10)
     resultado = num_jogador + num_computador
 
     print(f'O Jogador jogou {num_jogador} e o Computador jogou {num_computador}.')
