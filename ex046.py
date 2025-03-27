@@ -4,4 +4,4 @@ from time import sleep
 for i in range(10, -1, -1): # vai do 10 até 0
     print(f'{i}')
     sleep(1) #pausa de 1s
-print("\U0001F4A5" * 5)
+print("\U0001F4A5" * 5) #emoji colisão
